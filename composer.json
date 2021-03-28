@@ -1,0 +1,29 @@
+{
+    "name": "makstech/mailigen-api-php",
+    "description": "Mailigen.com PHP API wrapper",
+    "type": "library",
+    "keywords": [
+        "mgapi",
+        "Mailigen",
+        "mailing"
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Slotov",
+            "email": "max@slotov.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mailigen\\MGAPI\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
